@@ -40,16 +40,16 @@ function ToolsPage() {
       </div>
       <hr className="m-4 border-[#e2e4e8]" />
       <div className="mx-4  sora">
-        <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-4 flex items-center m-3">
+        <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-4 flex items-center my-3">
           Saved Quicknotes
         </div>
-        <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-4 flex items-center m-3">
+        <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-4 flex items-center my-3">
           Central
         </div>
-        <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-4 flex items-center m-3">
+        <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-4 flex items-center my-3">
           Calendar
         </div>
-        <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-4 flex items-center m-3">
+        <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-4 flex items-center my-3">
           Subjects
         </div>
       </div>
