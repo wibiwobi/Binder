@@ -1,6 +1,9 @@
 import "./main.css";
+import { useNavigate } from "react-router-dom";
 
 function SemesterPage() {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="mx-4 mt-4 mb-15 sora">
@@ -8,7 +11,9 @@ function SemesterPage() {
           <div className="text-[15px] text-[#55606f]">
             Another day another grind...
           </div>
-          <div className="w-16 h-16 rounded-full bg-amber-400"></div>
+          <div className="w-13 h-13 rounded-full border border-zinc-400 flex flex-row justify-center items-center">
+            S
+          </div>
         </div>
         <div className="sora-bold text-[25px]">Welcome back, chris</div>
       </div>
@@ -28,7 +33,12 @@ function SemesterPage() {
         <div className="mb-10">
           <div className="text-[#55606f] text-right mb-1 ">2024</div>
           <div className="flex flex-col gap-2 sora">
-            <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-5">
+            <div
+              className="d border border-zinc-400 h-15 rounded-md cursor-pointer p-5"
+              onClick={() => {
+                navigate("/tools");
+              }}
+            >
               1st Sem
             </div>
             <div className="border border-zinc-400 h-15 rounded-md cursor-pointer p-5">
